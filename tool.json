@@ -1,0 +1,189 @@
+{
+  "tool": {
+    "id": "fleischner-2017",
+    "title": "Fleischner 2017 (nódulo pulmonar sólido)",
+    "short": "Seguimento do nódulo pulmonar incidental na TC",
+    "desc": "Recomendações da Sociedade Fleischner 2017 para nódulo pulmonar sólido incidental na TC: seguimento conforme tamanho, número e risco.",
+    "lead": "Indica o seguimento de nódulos pulmonares sólidos encontrados por acaso na tomografia de adultos com 35 anos ou mais, conforme o tamanho, o número de nódulos e o risco do paciente.",
+    "spec": [
+      "radiologia-e-diagnostico-por-imagem",
+      "pneumologia",
+      "cirurgia-toracica",
+      "cirurgia-oncologica"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "tamanho",
+        "Diâmetro médio do nódulo (maior, se múltiplos)",
+        "num",
+        {
+          "min": 1,
+          "max": 30,
+          "step": 0.1,
+          "unit": "mm",
+          "ph": "7"
+        }
+      ],
+      [
+        "num",
+        "Número de nódulos",
+        "radio",
+        {
+          "opts": {
+            "u": "Único",
+            "m": "Múltiplos"
+          }
+        }
+      ],
+      [
+        "risco",
+        "Risco de câncer de pulmão",
+        "radio",
+        {
+          "opts": {
+            "b": "Baixo",
+            "a": "Alto (tabagismo, idade, exposição, história familiar, enfisema, lobo superior)"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>Diâmetro médio = (maior eixo + menor eixo) ÷ 2, arredondado para o milímetro mais próximo. Faixas: &lt; 6 mm (&lt; 100 mm³), 6 a 8 mm (100 a 250 mm³) e &gt; 8 mm (&gt; 250 mm³).</p>",
+    "table": [
+      [
+        "Nódulo sólido",
+        "Baixo risco",
+        "Alto risco"
+      ],
+      [
+        "Único &lt; 6 mm",
+        "Sem seguimento de rotina",
+        "TC opcional em 12 meses"
+      ],
+      [
+        "Único 6–8 mm",
+        "TC em 6–12 meses; considerar TC em 18–24 meses",
+        "TC em 6–12 meses e em 18–24 meses"
+      ],
+      [
+        "Único &gt; 8 mm",
+        "Considerar TC em 3 meses, PET-TC ou biópsia",
+        "Considerar TC em 3 meses, PET-TC ou biópsia"
+      ],
+      [
+        "Múltiplos &lt; 6 mm",
+        "Sem seguimento de rotina",
+        "TC opcional em 12 meses"
+      ],
+      [
+        "Múltiplos 6–8 mm",
+        "TC em 3–6 meses; considerar TC em 18–24 meses",
+        "TC em 3–6 meses e em 18–24 meses"
+      ],
+      [
+        "Múltiplos &gt; 8 mm",
+        "TC em 3–6 meses; considerar TC em 18–24 meses",
+        "TC em 3–6 meses; considerar TC em 18–24 meses"
+      ]
+    ],
+    "table_note": "Esta ferramenta cobre só nódulos sólidos; nódulos em vidro fosco e parcialmente sólidos têm tabela própria na mesma diretriz.",
+    "tips": [
+      "Não use em rastreamento de câncer de pulmão (Lung-RADS), em menores de 35 anos, em pacientes com câncer conhecido (risco de metástase) nem em imunossuprimidos.",
+      "Com múltiplos nódulos, a conduta segue o nódulo mais suspeito, que nem sempre é o maior.",
+      "Nódulos perifissurais ou justapleurais com morfologia típica de linfonodo intrapulmonar, mesmo de 6 a 8 mm, em geral dispensam seguimento.",
+      "Meça em cortes finos (≤ 1,5 mm), no plano em que o nódulo é maior; alterações menores que 2 mm entre exames estão dentro do erro de medida.",
+      "Nódulo sólido estável por 2 anos é considerado benigno; a exceção são os subsólidos, seguidos por mais tempo."
+    ],
+    "sources": [
+      [
+        "MacMahon H et al. Guidelines for management of incidental pulmonary nodules detected on CT images: from the Fleischner Society 2017. Radiology, 2017.",
+        "https://doi.org/10.1148/radiol.2017161659"
+      ]
+    ],
+    "cases": [
+      [
+        "Único de 4 mm, baixo risco: sem seguimento",
+        {
+          "tamanho": 4,
+          "num": "u",
+          "risco": "b"
+        },
+        {
+          "level": "low",
+          "verdict": "Sem seguimento de rotina"
+        }
+      ],
+      [
+        "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        {
+          "tamanho": 5.6,
+          "num": "u",
+          "risco": "a"
+        },
+        {
+          "raw": {
+            "mm": 6
+          },
+          "level": "mid",
+          "verdict": "TC em 6 a 12 meses e depois em 18 a 24 meses"
+        }
+      ],
+      [
+        "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        {
+          "tamanho": 7,
+          "num": "m",
+          "risco": "b"
+        },
+        {
+          "level": "mid",
+          "verdict": "TC em 3 a 6 meses; depois, considerar"
+        }
+      ],
+      [
+        "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        {
+          "tamanho": 10,
+          "num": "u",
+          "risco": "b"
+        },
+        {
+          "level": "high",
+          "verdict": "PET-TC"
+        }
+      ]
+    ],
+    "batch": "onco-diagnostico",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "onco-diagnostico",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/onco-diagnostico.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/onco-diagnostico.php",
+    "sha256": "29e7fd6aab1f8bf937a34267255855c21f804696da2b4817d6197578cdcbe743",
+    "bytes": 78570
+  },
+  "clinicalValidation": "not-performed"
+}

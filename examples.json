@@ -1,0 +1,77 @@
+[
+  {
+    "label": "Único de 4 mm, baixo risco: sem seguimento",
+    "input": {
+      "tamanho": 4,
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "level": "low",
+      "verdict": "Sem seguimento de rotina"
+    },
+    "originalInput": {
+      "tamanho": 4,
+      "num": "u",
+      "risco": "b"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+    "input": {
+      "tamanho": 5.6,
+      "num": "u",
+      "risco": "a"
+    },
+    "expected": {
+      "raw": {
+        "mm": 6
+      },
+      "level": "mid",
+      "verdict": "TC em 6 a 12 meses e depois em 18 a 24 meses"
+    },
+    "originalInput": {
+      "tamanho": 5.6,
+      "num": "u",
+      "risco": "a"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+    "input": {
+      "tamanho": 7,
+      "num": "m",
+      "risco": "b"
+    },
+    "expected": {
+      "level": "mid",
+      "verdict": "TC em 3 a 6 meses; depois, considerar"
+    },
+    "originalInput": {
+      "tamanho": 7,
+      "num": "m",
+      "risco": "b"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+    "input": {
+      "tamanho": 10,
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "level": "high",
+      "verdict": "PET-TC"
+    },
+    "originalInput": {
+      "tamanho": 10,
+      "num": "u",
+      "risco": "b"
+    },
+    "expandedZeroOptions": []
+  }
+]
