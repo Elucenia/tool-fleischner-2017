@@ -1,0 +1,363 @@
+{
+  "id": "fleischner-2017",
+  "at": "2026-10-05T17:29:34.359Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/fleischner-2017/calculator.js",
+    "bytes": 5490,
+    "sha256": "51f7a6ebe7e96336ee9975849e4f861a78d5fac037776db20d4b737346955a54"
+  },
+  "cases": [
+    {
+      "name": "Único de 4 mm, baixo risco: sem seguimento",
+      "input": {
+        "tamanho": 4,
+        "num": "u",
+        "risco": "b"
+      },
+      "obtained": {
+        "id": "fleischner-2017",
+        "main": [
+          "4",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, < 6 mm",
+        "raw": {
+          "mm": 4,
+          "cat": "< 6 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mm",
+          "expected": 4,
+          "obtained": 4,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.cat",
+          "expected": "< 6 mm",
+          "obtained": "< 6 mm",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "4",
+          "obtained": "4",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mm",
+          "obtained": "mm",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+      "input": {
+        "tamanho": 5.6,
+        "num": "u",
+        "risco": "a"
+      },
+      "obtained": {
+        "id": "fleischner-2017",
+        "main": [
+          "6",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, 6 a 8 mm",
+        "raw": {
+          "mm": 6,
+          "cat": "6 a 8 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.mm",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mm",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.cat",
+          "expected": "6 a 8 mm",
+          "obtained": "6 a 8 mm",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "6",
+          "obtained": "6",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mm",
+          "obtained": "mm",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+      "input": {
+        "tamanho": 7,
+        "num": "m",
+        "risco": "b"
+      },
+      "obtained": {
+        "id": "fleischner-2017",
+        "main": [
+          "7",
+          "mm"
+        ],
+        "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+        "raw": {
+          "mm": 7,
+          "cat": "6 a 8 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mm",
+          "expected": 7,
+          "obtained": 7,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.cat",
+          "expected": "6 a 8 mm",
+          "obtained": "6 a 8 mm",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "7",
+          "obtained": "7",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mm",
+          "obtained": "mm",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+      "input": {
+        "tamanho": 10,
+        "num": "u",
+        "risco": "b"
+      },
+      "obtained": {
+        "id": "fleischner-2017",
+        "main": [
+          "10",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, > 8 mm",
+        "raw": {
+          "mm": 10,
+          "cat": "> 8 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mm",
+          "expected": 10,
+          "obtained": 10,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.cat",
+          "expected": "> 8 mm",
+          "obtained": "> 8 mm",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "10",
+          "obtained": "10",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "mm",
+          "obtained": "mm",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 20,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

@@ -1,6 +1,14 @@
 [
   {
-    "label": "Único de 4 mm, baixo risco: sem seguimento",
+    "id": "fleischner-2017",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Único de 4 mm, baixo risco: sem seguimento",
+    "originalInput": {
+      "tamanho": 4,
+      "num": "u",
+      "risco": "b"
+    },
     "input": {
       "tamanho": 4,
       "num": "u",
@@ -10,15 +18,36 @@
       "level": "low",
       "verdict": "Sem seguimento de rotina"
     },
-    "originalInput": {
-      "tamanho": 4,
-      "num": "u",
-      "risco": "b"
+    "recordedResult": {
+      "main": [
+        "4",
+        "mm"
+      ],
+      "label": "Nódulo sólido único, < 6 mm",
+      "raw": {
+        "mm": 4,
+        "cat": "< 6 mm"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+    "id": "fleischner-2017",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+    "originalInput": {
+      "tamanho": 5.6,
+      "num": "u",
+      "risco": "a"
+    },
     "input": {
       "tamanho": 5.6,
       "num": "u",
@@ -31,15 +60,36 @@
       "level": "mid",
       "verdict": "TC em 6 a 12 meses e depois em 18 a 24 meses"
     },
-    "originalInput": {
-      "tamanho": 5.6,
-      "num": "u",
-      "risco": "a"
+    "recordedResult": {
+      "main": [
+        "6",
+        "mm"
+      ],
+      "label": "Nódulo sólido único, 6 a 8 mm",
+      "raw": {
+        "mm": 6,
+        "cat": "6 a 8 mm"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+    "id": "fleischner-2017",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+    "originalInput": {
+      "tamanho": 7,
+      "num": "m",
+      "risco": "b"
+    },
     "input": {
       "tamanho": 7,
       "num": "m",
@@ -49,15 +99,36 @@
       "level": "mid",
       "verdict": "TC em 3 a 6 meses; depois, considerar"
     },
-    "originalInput": {
-      "tamanho": 7,
-      "num": "m",
-      "risco": "b"
+    "recordedResult": {
+      "main": [
+        "7",
+        "mm"
+      ],
+      "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+      "raw": {
+        "mm": 7,
+        "cat": "6 a 8 mm"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+    "id": "fleischner-2017",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+    "originalInput": {
+      "tamanho": 10,
+      "num": "u",
+      "risco": "b"
+    },
     "input": {
       "tamanho": 10,
       "num": "u",
@@ -67,11 +138,24 @@
       "level": "high",
       "verdict": "PET-TC"
     },
-    "originalInput": {
-      "tamanho": 10,
-      "num": "u",
-      "risco": "b"
+    "recordedResult": {
+      "main": [
+        "10",
+        "mm"
+      ],
+      "label": "Nódulo sólido único, > 8 mm",
+      "raw": {
+        "mm": 10,
+        "cat": "> 8 mm"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

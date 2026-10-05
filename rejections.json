@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field tamanho",
+    "input": {
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field tamanho",
+    "input": {
+      "tamanho": "",
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" tamanho",
+    "input": {
+      "tamanho": "NaN",
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" tamanho",
+    "input": {
+      "tamanho": "Infinity",
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" tamanho",
+    "input": {
+      "tamanho": "1e309",
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" tamanho",
+    "input": {
+      "tamanho": "invalid",
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} tamanho",
+    "input": {
+      "tamanho": {},
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true tamanho",
+    "input": {
+      "tamanho": true,
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum tamanho",
+    "input": {
+      "tamanho": 0,
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum tamanho",
+    "input": {
+      "tamanho": 33,
+      "num": "u",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field num",
+    "input": {
+      "tamanho": 4,
+      "risco": "b"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "num"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field num",
+    "input": {
+      "tamanho": 4,
+      "num": "",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "num"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option num",
+    "input": {
+      "tamanho": 4,
+      "num": "__ELUCENIA_INVALID_OPTION__",
+      "risco": "b"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "num"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field risco",
+    "input": {
+      "tamanho": 4,
+      "num": "u"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "risco"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field risco",
+    "input": {
+      "tamanho": 4,
+      "num": "u",
+      "risco": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "risco"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option risco",
+    "input": {
+      "tamanho": 4,
+      "num": "u",
+      "risco": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "risco"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
