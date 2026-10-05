@@ -1,0 +1,829 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "fleischner-2017",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/fleischner-2017/calculator.js",
+    "sha256": "51f7a6ebe7e96336ee9975849e4f861a78d5fac037776db20d4b737346955a54",
+    "bytes": 5490
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "fleischner-2017",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Único de 4 mm, baixo risco: sem seguimento",
+      "originalInput": {
+        "tamanho": 4,
+        "num": "u",
+        "risco": "b"
+      },
+      "input": {
+        "tamanho": 4,
+        "num": "u",
+        "risco": "b"
+      },
+      "amendments": [],
+      "expected": {
+        "level": "low",
+        "verdict": "Sem seguimento de rotina"
+      },
+      "recordedResult": {
+        "main": [
+          "4",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, < 6 mm",
+        "raw": {
+          "mm": 4,
+          "cat": "< 6 mm"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tamanho": 4,
+            "num": "u",
+            "risco": "b"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+          "startedAt": "2026-10-05T17:38:03.401Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "fleischner-2017",
+              "main": [
+                "4",
+                "mm"
+              ],
+              "label": "Nódulo sólido único, < 6 mm",
+              "raw": {
+                "mm": 4,
+                "cat": "< 6 mm"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "af4909417fd7fa39633583cf2e4b76118d86674f379cf7a2c631930ab667ccff",
+          "bytes": 161,
+          "elapsedMs": 3.033900000009453
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "startedAt": "2026-10-05T17:38:03.401Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "fleischner-2017",
+            "main": [
+              "4",
+              "mm"
+            ],
+            "label": "Nódulo sólido único, < 6 mm",
+            "raw": {
+              "mm": 4,
+              "cat": "< 6 mm"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "af4909417fd7fa39633583cf2e4b76118d86674f379cf7a2c631930ab667ccff",
+        "bytes": 161,
+        "elapsedMs": 3.033900000009453
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mm",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": "< 6 mm",
+            "obtained": "< 6 mm",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "4",
+            "obtained": "4",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "mm",
+            "obtained": "mm",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "fleischner-2017",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+      "originalInput": {
+        "tamanho": 5.6,
+        "num": "u",
+        "risco": "a"
+      },
+      "input": {
+        "tamanho": 5.6,
+        "num": "u",
+        "risco": "a"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "mm": 6
+        },
+        "level": "mid",
+        "verdict": "TC em 6 a 12 meses e depois em 18 a 24 meses"
+      },
+      "recordedResult": {
+        "main": [
+          "6",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, 6 a 8 mm",
+        "raw": {
+          "mm": 6,
+          "cat": "6 a 8 mm"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tamanho": 5.6,
+            "num": "u",
+            "risco": "a"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+          "startedAt": "2026-10-05T17:38:03.713Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "fleischner-2017",
+              "main": [
+                "6",
+                "mm"
+              ],
+              "label": "Nódulo sólido único, 6 a 8 mm",
+              "raw": {
+                "mm": 6,
+                "cat": "6 a 8 mm"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "56af86a2c8c2aad1384faeb75e50866fa0739142de59949c17c30da53a92b7a9",
+          "bytes": 165,
+          "elapsedMs": 2.5652999999874737
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "startedAt": "2026-10-05T17:38:03.713Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "fleischner-2017",
+            "main": [
+              "6",
+              "mm"
+            ],
+            "label": "Nódulo sólido único, 6 a 8 mm",
+            "raw": {
+              "mm": 6,
+              "cat": "6 a 8 mm"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "56af86a2c8c2aad1384faeb75e50866fa0739142de59949c17c30da53a92b7a9",
+        "bytes": 165,
+        "elapsedMs": 2.5652999999874737
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.mm",
+            "expected": 6,
+            "obtained": 6,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mm",
+            "expected": 6,
+            "obtained": 6,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": "6 a 8 mm",
+            "obtained": "6 a 8 mm",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "6",
+            "obtained": "6",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "mm",
+            "obtained": "mm",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "fleischner-2017",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+      "originalInput": {
+        "tamanho": 7,
+        "num": "m",
+        "risco": "b"
+      },
+      "input": {
+        "tamanho": 7,
+        "num": "m",
+        "risco": "b"
+      },
+      "amendments": [],
+      "expected": {
+        "level": "mid",
+        "verdict": "TC em 3 a 6 meses; depois, considerar"
+      },
+      "recordedResult": {
+        "main": [
+          "7",
+          "mm"
+        ],
+        "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+        "raw": {
+          "mm": 7,
+          "cat": "6 a 8 mm"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tamanho": 7,
+            "num": "m",
+            "risco": "b"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+          "startedAt": "2026-10-05T17:38:04.013Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "fleischner-2017",
+              "main": [
+                "7",
+                "mm"
+              ],
+              "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+              "raw": {
+                "mm": 7,
+                "cat": "6 a 8 mm"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "2da457d40793a807629da81cdcedde7b18fde172e7227975a6035bf8b19c06d5",
+          "bytes": 192,
+          "elapsedMs": 2.8593999999866355
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "startedAt": "2026-10-05T17:38:04.013Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "fleischner-2017",
+            "main": [
+              "7",
+              "mm"
+            ],
+            "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+            "raw": {
+              "mm": 7,
+              "cat": "6 a 8 mm"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "2da457d40793a807629da81cdcedde7b18fde172e7227975a6035bf8b19c06d5",
+        "bytes": 192,
+        "elapsedMs": 2.8593999999866355
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mm",
+            "expected": 7,
+            "obtained": 7,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": "6 a 8 mm",
+            "obtained": "6 a 8 mm",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "7",
+            "obtained": "7",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "mm",
+            "obtained": "mm",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "fleischner-2017",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+      "originalInput": {
+        "tamanho": 10,
+        "num": "u",
+        "risco": "b"
+      },
+      "input": {
+        "tamanho": 10,
+        "num": "u",
+        "risco": "b"
+      },
+      "amendments": [],
+      "expected": {
+        "level": "high",
+        "verdict": "PET-TC"
+      },
+      "recordedResult": {
+        "main": [
+          "10",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, > 8 mm",
+        "raw": {
+          "mm": 10,
+          "cat": "> 8 mm"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tamanho": 10,
+            "num": "u",
+            "risco": "b"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+          "startedAt": "2026-10-05T17:38:04.325Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "fleischner-2017",
+              "main": [
+                "10",
+                "mm"
+              ],
+              "label": "Nódulo sólido único, > 8 mm",
+              "raw": {
+                "mm": 10,
+                "cat": "> 8 mm"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "f52293a0ab5222cff2ae6bea84eee8eb9642ffe4c34cc85997c3570f0a46e648",
+          "bytes": 163,
+          "elapsedMs": 2.459899999987101
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/fleischner-2017/calculate",
+        "startedAt": "2026-10-05T17:38:04.325Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "fleischner-2017",
+            "main": [
+              "10",
+              "mm"
+            ],
+            "label": "Nódulo sólido único, > 8 mm",
+            "raw": {
+              "mm": 10,
+              "cat": "> 8 mm"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "f52293a0ab5222cff2ae6bea84eee8eb9642ffe4c34cc85997c3570f0a46e648",
+        "bytes": 163,
+        "elapsedMs": 2.459899999987101
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mm",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": "> 8 mm",
+            "obtained": "> 8 mm",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "10",
+            "obtained": "10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "mm",
+            "obtained": "mm",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
