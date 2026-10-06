@@ -1,0 +1,279 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "fleischner-2017",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "ab5009270b0607908d5059a0c11d41b40455b1e2",
+    "oldEngineSha256": "51f7a6ebe7e96336ee9975849e4f861a78d5fac037776db20d4b737346955a54",
+    "currentEngineSha256": "107e3e77467e8c56d53aa5df7b85e7d322ae72dfdb5a4bae6a7606afa89c1579"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Único de 4 mm, baixo risco: sem seguimento",
+      "input": {
+        "tamanho": 4,
+        "num": "u",
+        "risco": "b"
+      },
+      "publicOutput": {
+        "id": "fleischner-2017",
+        "main": [
+          "4",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, < 6 mm",
+        "raw": {
+          "mm": 4,
+          "cat": "< 6 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "level": "low",
+        "verdict": "Sem seguimento de rotina"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, < 6 mm",
+        "level": "low",
+        "verdict": "Sem seguimento de rotina",
+        "rows": [
+          [
+            "Risco do paciente",
+            "Baixo"
+          ],
+          [
+            "Diâmetro médio arredondado",
+            "4 mm"
+          ]
+        ],
+        "note": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+        "raw": {
+          "mm": 4,
+          "cat": "< 6 mm"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+      "input": {
+        "tamanho": 5.6,
+        "num": "u",
+        "risco": "a"
+      },
+      "publicOutput": {
+        "id": "fleischner-2017",
+        "main": [
+          "6",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, 6 a 8 mm",
+        "raw": {
+          "mm": 6,
+          "cat": "6 a 8 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "mm": 6
+        },
+        "level": "mid",
+        "verdict": "TC em 6 a 12 meses e depois em 18 a 24 meses"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "6",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, 6 a 8 mm",
+        "level": "mid",
+        "verdict": "TC em 6 a 12 meses e depois em 18 a 24 meses",
+        "rows": [
+          [
+            "Risco do paciente",
+            "Alto"
+          ],
+          [
+            "Diâmetro médio arredondado",
+            "6 mm"
+          ]
+        ],
+        "note": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+        "raw": {
+          "mm": 6,
+          "cat": "6 a 8 mm"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+      "input": {
+        "tamanho": 7,
+        "num": "m",
+        "risco": "b"
+      },
+      "publicOutput": {
+        "id": "fleischner-2017",
+        "main": [
+          "7",
+          "mm"
+        ],
+        "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+        "raw": {
+          "mm": 7,
+          "cat": "6 a 8 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "level": "mid",
+        "verdict": "TC em 3 a 6 meses; depois, considerar"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "7",
+          "mm"
+        ],
+        "label": "Nódulo sólido múltiplo (nódulo mais suspeito), 6 a 8 mm",
+        "level": "mid",
+        "verdict": "TC em 3 a 6 meses; depois, considerar TC em 18 a 24 meses",
+        "rows": [
+          [
+            "Risco do paciente",
+            "Baixo"
+          ],
+          [
+            "Diâmetro médio arredondado",
+            "7 mm"
+          ]
+        ],
+        "note": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+        "raw": {
+          "mm": 7,
+          "cat": "6 a 8 mm"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+      "input": {
+        "tamanho": 10,
+        "num": "u",
+        "risco": "b"
+      },
+      "publicOutput": {
+        "id": "fleischner-2017",
+        "main": [
+          "10",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, > 8 mm",
+        "raw": {
+          "mm": 10,
+          "cat": "> 8 mm"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "level": "high",
+        "verdict": "PET-TC"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10",
+          "mm"
+        ],
+        "label": "Nódulo sólido único, > 8 mm",
+        "level": "high",
+        "verdict": "Considerar TC em 3 meses, PET-TC ou amostra de tecido",
+        "rows": [
+          [
+            "Risco do paciente",
+            "Baixo"
+          ],
+          [
+            "Diâmetro médio arredondado",
+            "10 mm"
+          ]
+        ],
+        "note": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+        "raw": {
+          "mm": 10,
+          "cat": "> 8 mm"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    }
+  ]
+}

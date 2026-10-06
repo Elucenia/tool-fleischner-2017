@@ -75,3 +75,55 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Sem seguimento de rotina
+
+| Detalhes do resultado | |
+| --- | --- |
+| Risco do paciente | Baixo |
+| Diâmetro médio arredondado | 4 mm |
+
+Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).
+
+
+### 2
+
+TC em 6 a 12 meses e depois em 18 a 24 meses
+
+| Detalhes do resultado | |
+| --- | --- |
+| Risco do paciente | Alto |
+| Diâmetro médio arredondado | 6 mm |
+
+Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).
+
+
+### 3
+
+TC em 3 a 6 meses; depois, considerar TC em 18 a 24 meses
+
+| Detalhes do resultado | |
+| --- | --- |
+| Risco do paciente | Baixo |
+| Diâmetro médio arredondado | 7 mm |
+
+Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).
+
+
+### 4
+
+Considerar TC em 3 meses, PET-TC ou amostra de tecido
+
+| Detalhes do resultado | |
+| --- | --- |
+| Risco do paciente | Baixo |
+| Diâmetro médio arredondado | 10 mm |
+
+Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).
+

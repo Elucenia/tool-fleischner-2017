@@ -75,3 +75,55 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Keine routinemäßige Nachsorge
+
+| Ergebnisdetails | |
+| --- | --- |
+| Patientenrisiko | Niedrig |
+| Gerundeter mittlerer Durchmesser | 4 mm |
+
+Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).
+
+
+### 2
+
+CT in 6 bis 12 Monaten und dann in 18 bis 24 Monaten
+
+| Ergebnisdetails | |
+| --- | --- |
+| Patientenrisiko | Hoch |
+| Gerundeter mittlerer Durchmesser | 6 mm |
+
+Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).
+
+
+### 3
+
+CT in 3 bis 6 Monaten; dann CT in 18 bis 24 Monaten erwägen
+
+| Ergebnisdetails | |
+| --- | --- |
+| Patientenrisiko | Niedrig |
+| Gerundeter mittlerer Durchmesser | 7 mm |
+
+Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).
+
+
+### 4
+
+CT in 3 Monaten, PET-CT oder Gewebeprobe erwägen
+
+| Ergebnisdetails | |
+| --- | --- |
+| Patientenrisiko | Niedrig |
+| Gerundeter mittlerer Durchmesser | 10 mm |
+
+Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).
+

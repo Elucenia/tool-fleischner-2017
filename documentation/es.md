@@ -75,3 +75,55 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Sin seguimiento rutinario
+
+| Detalles del resultado | |
+| --- | --- |
+| Riesgo del paciente | Bajo |
+| Diámetro medio redondeado | 4 mm |
+
+No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).
+
+
+### 2
+
+TC en 6 a 12 meses y luego en 18 a 24 meses
+
+| Detalles del resultado | |
+| --- | --- |
+| Riesgo del paciente | Alto |
+| Diámetro medio redondeado | 6 mm |
+
+No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).
+
+
+### 3
+
+TC en 3 a 6 meses; luego, considerar TC en 18 a 24 meses
+
+| Detalles del resultado | |
+| --- | --- |
+| Riesgo del paciente | Bajo |
+| Diámetro medio redondeado | 7 mm |
+
+No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).
+
+
+### 4
+
+Considerar TC en 3 meses, PET-TC o muestra de tejido
+
+| Detalles del resultado | |
+| --- | --- |
+| Riesgo del paciente | Bajo |
+| Diámetro medio redondeado | 10 mm |
+
+No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).
+

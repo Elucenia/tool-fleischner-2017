@@ -75,3 +75,55 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Pas de suivi de routine
+
+| Détails du résultat | |
+| --- | --- |
+| Risque du patient | Faible |
+| Diamètre moyen arrondi | 4 mm |
+
+Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).
+
+
+### 2
+
+TDM dans 6 à 12 mois puis dans 18 à 24 mois
+
+| Détails du résultat | |
+| --- | --- |
+| Risque du patient | Élevé |
+| Diamètre moyen arrondi | 6 mm |
+
+Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).
+
+
+### 3
+
+TDM dans 3 à 6 mois ; ensuite, envisager une TDM dans 18 à 24 mois
+
+| Détails du résultat | |
+| --- | --- |
+| Risque du patient | Faible |
+| Diamètre moyen arrondi | 7 mm |
+
+Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).
+
+
+### 4
+
+Envisager une TDM dans 3 mois, une TEP-TDM ou un prélèvement tissulaire
+
+| Détails du résultat | |
+| --- | --- |
+| Risque du patient | Faible |
+| Diamètre moyen arrondi | 10 mm |
+
+Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).
+

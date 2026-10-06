@@ -241,7 +241,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Fleischner Society 2017:nódulos sólidos incidentais, diâmetromédio arredondado; exclusões preservadas",
-    "implementationVersion": "fleischner-2017@native-2026-10-03+51f7a6ebe7e9",
+    "implementationVersion": "fleischner-2017@native-2026-10-05+107e3e77467e",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/28240562/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -429,7 +429,7 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "51f7a6ebe7e96336ee9975849e4f861a78d5fac037776db20d4b737346955a54",
+      "implementationHash": "107e3e77467e8c56d53aa5df7b85e7d322ae72dfdb5a4bae6a7606afa89c1579",
       "previousImplementationHash": "fef33b3a6206490d0b36dd88e3cd3819d014f525f4683862e8cda59c6aa93ea1",
       "previousInputContract": {
         "fields": [
@@ -480,7 +480,35 @@
         "scope": "Documented input/result-label correction and high-risk multiple >8mm private follow-up wording; numerical arithmetic unchanged.",
         "clinicalApproval": "not-performed",
         "translationApproval": "not-performed"
-      }
+      },
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "fleischner-2017@native-2026-10-03+51f7a6ebe7e9",
+          "previousImplementationHash": "51f7a6ebe7e96336ee9975849e4f861a78d5fac037776db20d4b737346955a54",
+          "implementationHash": "107e3e77467e8c56d53aa5df7b85e7d322ae72dfdb5a4bae6a7606afa89c1579",
+          "scientificBodySha256": "1e66ef56c6777d482541a32b58f51fb2009469a845a03730121f50e298675f46",
+          "metadataContractHash": "67819a7c007cb1049beec2f8ada212b2bdec017e318da03ca2d572ca31cb5f38",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Variante para nódulos pulmonares sólidos incidentais em adultos de 35 anos ou mais. As recomendações Fleischner2017 não se aplicam ao rastreamento de câncer pulmonar, a pessoas imunocomprometidas nem a pacientes com câncer primário conhecido. Nódulos subsólidos ou parcialmente sólidos exigem outro algoritmo. Em nódulos múltiplos, o nódulo mais suspeito deve orientar a avaliação; ele não é necessariamente o maior. A estratificação de risco e a decisão de seguimento dependem da avaliação clínica e radiológica.",
     "limitsEvidence": {
@@ -513,20 +541,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/fleischner-2017/calculator.js",
-    "bytes": 5490,
-    "sha256": "51f7a6ebe7e96336ee9975849e4f861a78d5fac037776db20d4b737346955a54"
+    "bytes": 5695,
+    "sha256": "107e3e77467e8c56d53aa5df7b85e7d322ae72dfdb5a4bae6a7606afa89c1579"
   },
-  "sourceToolSha256": "f8f732ad147964abfcdb35d3ea952c3f7387cb29b9d72faac9eb59edfa257bda",
+  "sourceToolSha256": "032e20ccf0a4c0e86691e4690521fe3f03e5ff4e2e8e45d13b1bafb719991914",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "4d583c9b71fe78b6c28c7b07c49418617835edc34c5c717d7f7984280c550589",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "4d583c9b71fe78b6c28c7b07c49418617835edc34c5c717d7f7984280c550589",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

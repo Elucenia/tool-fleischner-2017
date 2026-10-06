@@ -75,3 +75,55 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Nessun follow-up di routine
+
+| Dettagli del risultato | |
+| --- | --- |
+| Rischio del paziente | Basso |
+| Diametro medio arrotondato | 4 mm |
+
+Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).
+
+
+### 2
+
+TC tra 6 e 12 mesi e poi tra 18 e 24 mesi
+
+| Dettagli del risultato | |
+| --- | --- |
+| Rischio del paziente | Alto |
+| Diametro medio arrotondato | 6 mm |
+
+Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).
+
+
+### 3
+
+TC tra 3 e 6 mesi; poi considerare TC tra 18 e 24 mesi
+
+| Dettagli del risultato | |
+| --- | --- |
+| Rischio del paziente | Basso |
+| Diametro medio arrotondato | 7 mm |
+
+Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).
+
+
+### 4
+
+Considerare TC tra 3 mesi, PET-TC o campione di tessuto
+
+| Dettagli del risultato | |
+| --- | --- |
+| Rischio del paziente | Basso |
+| Diametro medio arrotondato | 10 mm |
+
+Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).
+

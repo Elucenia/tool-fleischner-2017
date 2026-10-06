@@ -1,0 +1,1895 @@
+{
+  "id": "fleischner-2017",
+  "implementationVersion": "fleischner-2017@native-2026-10-05+107e3e77467e",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risco do paciente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Baixo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diâmetro médio arredondado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sem seguimento de rotina",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risco do paciente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Alto",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diâmetro médio arredondado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TC em 6 a 12 meses e depois em 18 a 24 meses",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risco do paciente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Baixo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diâmetro médio arredondado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TC em 3 a 6 meses; depois, considerar TC em 18 a 24 meses",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risco do paciente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Baixo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diâmetro médio arredondado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Considerar TC em 3 meses, PET-TC ou amostra de tecido",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Não se aplica a menores de 35 anos, pacientes com câncer conhecido, imunossuprimidos ou rastreamento de câncer de pulmão (use Lung-RADS).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patient risk",
+                "locale": "en",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Low",
+                "locale": "en",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rounded mean diameter",
+                "locale": "en",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "en",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "No routine follow-up",
+            "locale": "en",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).",
+            "locale": "en",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patient risk",
+                "locale": "en",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "High",
+                "locale": "en",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rounded mean diameter",
+                "locale": "en",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "en",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CT in 6 to 12 months and then in 18 to 24 months",
+            "locale": "en",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).",
+            "locale": "en",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patient risk",
+                "locale": "en",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Low",
+                "locale": "en",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rounded mean diameter",
+                "locale": "en",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "en",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CT in 3 to 6 months; then, consider CT in 18 to 24 months",
+            "locale": "en",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).",
+            "locale": "en",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patient risk",
+                "locale": "en",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Low",
+                "locale": "en",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rounded mean diameter",
+                "locale": "en",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "en",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Consider CT in 3 months, PET-CT or tissue sample",
+            "locale": "en",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).",
+            "locale": "en",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Riesgo del paciente",
+                "locale": "es",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Bajo",
+                "locale": "es",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diámetro medio redondeado",
+                "locale": "es",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "es",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sin seguimiento rutinario",
+            "locale": "es",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).",
+            "locale": "es",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Riesgo del paciente",
+                "locale": "es",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Alto",
+                "locale": "es",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diámetro medio redondeado",
+                "locale": "es",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "es",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TC en 6 a 12 meses y luego en 18 a 24 meses",
+            "locale": "es",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).",
+            "locale": "es",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Riesgo del paciente",
+                "locale": "es",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Bajo",
+                "locale": "es",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diámetro medio redondeado",
+                "locale": "es",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "es",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TC en 3 a 6 meses; luego, considerar TC en 18 a 24 meses",
+            "locale": "es",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).",
+            "locale": "es",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Riesgo del paciente",
+                "locale": "es",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Bajo",
+                "locale": "es",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diámetro medio redondeado",
+                "locale": "es",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "es",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Considerar TC en 3 meses, PET-TC o muestra de tejido",
+            "locale": "es",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "No se aplica a menores de 35 años, pacientes con cáncer conocido, inmunodeprimidos o cribado de cáncer de pulmón (usar Lung-RADS).",
+            "locale": "es",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risque du patient",
+                "locale": "fr",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Faible",
+                "locale": "fr",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diamètre moyen arrondi",
+                "locale": "fr",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "fr",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Pas de suivi de routine",
+            "locale": "fr",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).",
+            "locale": "fr",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risque du patient",
+                "locale": "fr",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Élevé",
+                "locale": "fr",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diamètre moyen arrondi",
+                "locale": "fr",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "fr",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TDM dans 6 à 12 mois puis dans 18 à 24 mois",
+            "locale": "fr",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).",
+            "locale": "fr",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risque du patient",
+                "locale": "fr",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Faible",
+                "locale": "fr",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diamètre moyen arrondi",
+                "locale": "fr",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "fr",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TDM dans 3 à 6 mois ; ensuite, envisager une TDM dans 18 à 24 mois",
+            "locale": "fr",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).",
+            "locale": "fr",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Risque du patient",
+                "locale": "fr",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Faible",
+                "locale": "fr",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diamètre moyen arrondi",
+                "locale": "fr",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "fr",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Envisager une TDM dans 3 mois, une TEP-TDM ou un prélèvement tissulaire",
+            "locale": "fr",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "Ne s’applique pas aux personnes de moins de 35 ans, aux patients ayant un cancer connu, aux patients immunodéprimés ou au dépistage du cancer du poumon (utiliser Lung-RADS).",
+            "locale": "fr",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patientenrisiko",
+                "locale": "de",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Niedrig",
+                "locale": "de",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Gerundeter mittlerer Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "de",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Keine routinemäßige Nachsorge",
+            "locale": "de",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).",
+            "locale": "de",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patientenrisiko",
+                "locale": "de",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Hoch",
+                "locale": "de",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Gerundeter mittlerer Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "de",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CT in 6 bis 12 Monaten und dann in 18 bis 24 Monaten",
+            "locale": "de",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).",
+            "locale": "de",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patientenrisiko",
+                "locale": "de",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Niedrig",
+                "locale": "de",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Gerundeter mittlerer Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "de",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CT in 3 bis 6 Monaten; dann CT in 18 bis 24 Monaten erwägen",
+            "locale": "de",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).",
+            "locale": "de",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Patientenrisiko",
+                "locale": "de",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Niedrig",
+                "locale": "de",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Gerundeter mittlerer Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "de",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CT in 3 Monaten, PET-CT oder Gewebeprobe erwägen",
+            "locale": "de",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "Gilt nicht für Personen unter 35 Jahren, Patienten mit bekannter Krebserkrankung, immunsupprimierte Patienten oder das Lungenkrebsscreening (Lung-RADS verwenden).",
+            "locale": "de",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rischio del paziente",
+                "locale": "it",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Basso",
+                "locale": "it",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diametro medio arrotondato",
+                "locale": "it",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "it",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Nessun follow-up di routine",
+            "locale": "it",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).",
+            "locale": "it",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rischio del paziente",
+                "locale": "it",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Alto",
+                "locale": "it",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diametro medio arrotondato",
+                "locale": "it",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "it",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TC tra 6 e 12 mesi e poi tra 18 e 24 mesi",
+            "locale": "it",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).",
+            "locale": "it",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rischio del paziente",
+                "locale": "it",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Basso",
+                "locale": "it",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diametro medio arrotondato",
+                "locale": "it",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "it",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TC tra 3 e 6 mesi; poi considerare TC tra 18 e 24 mesi",
+            "locale": "it",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).",
+            "locale": "it",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rischio del paziente",
+                "locale": "it",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "Basso",
+                "locale": "it",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Diametro medio arrotondato",
+                "locale": "it",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "it",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Considerare TC tra 3 mesi, PET-TC o campione di tessuto",
+            "locale": "it",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "Non si applica a persone di età inferiore a 35 anni, pazienti con tumore noto, immunodepressi o screening per il tumore del polmone (usare Lung-RADS).",
+            "locale": "it",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "خطر المريض",
+                "locale": "ar",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "منخفض",
+                "locale": "ar",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القطر المتوسط المقرب",
+                "locale": "ar",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "٤ مم",
+                "locale": "ar",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "لا متابعة روتينية",
+            "locale": "ar",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "لا ينطبق على من هم دون 35 عامًا، أو المرضى المصابين بالسرطان المعروف، أو المثبطين مناعيًا، أو فحص سرطان الرئة (استخدم Lung-RADS).",
+            "locale": "ar",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "خطر المريض",
+                "locale": "ar",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "مرتفع",
+                "locale": "ar",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القطر المتوسط المقرب",
+                "locale": "ar",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "٦ مم",
+                "locale": "ar",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "التصوير المقطعي المحوسب بعد 6 إلى 12 شهرًا ثم بعد 18 إلى 24 شهرًا",
+            "locale": "ar",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "لا ينطبق على من هم دون 35 عامًا، أو المرضى المصابين بالسرطان المعروف، أو المثبطين مناعيًا، أو فحص سرطان الرئة (استخدم Lung-RADS).",
+            "locale": "ar",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "خطر المريض",
+                "locale": "ar",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "منخفض",
+                "locale": "ar",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القطر المتوسط المقرب",
+                "locale": "ar",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "٧ مم",
+                "locale": "ar",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "التصوير المقطعي المحوسب بعد 3 إلى 6 أشهر؛ ثم النظر في التصوير المقطعي المحوسب بعد 18 إلى 24 شهرًا",
+            "locale": "ar",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "لا ينطبق على من هم دون 35 عامًا، أو المرضى المصابين بالسرطان المعروف، أو المثبطين مناعيًا، أو فحص سرطان الرئة (استخدم Lung-RADS).",
+            "locale": "ar",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "خطر المريض",
+                "locale": "ar",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "منخفض",
+                "locale": "ar",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "القطر المتوسط المقرب",
+                "locale": "ar",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "١٠ مم",
+                "locale": "ar",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "النظر في التصوير المقطعي المحوسب بعد 3 أشهر، أو PET-CT، أو عينة نسيجية",
+            "locale": "ar",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "لا ينطبق على من هم دون 35 عامًا، أو المرضى المصابين بالسرطان المعروف، أو المثبطين مناعيًا، أو فحص سرطان الرئة (استخدم Lung-RADS).",
+            "locale": "ar",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者风险",
+                "locale": "zh",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "低",
+                "locale": "zh",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四舍五入的平均直径",
+                "locale": "zh",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "zh",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "无需常规随访",
+            "locale": "zh",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "不适用于 35 岁以下人群、已知癌症患者、免疫抑制患者或肺癌筛查（使用 Lung-RADS）。",
+            "locale": "zh",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者风险",
+                "locale": "zh",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "高",
+                "locale": "zh",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四舍五入的平均直径",
+                "locale": "zh",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "zh",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "6至12个月后行CT检查，然后在18至24个月后再行CT检查",
+            "locale": "zh",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "不适用于 35 岁以下人群、已知癌症患者、免疫抑制患者或肺癌筛查（使用 Lung-RADS）。",
+            "locale": "zh",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者风险",
+                "locale": "zh",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "低",
+                "locale": "zh",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四舍五入的平均直径",
+                "locale": "zh",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "zh",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "3至6个月后行CT检查；然后考虑在18至24个月后行CT检查",
+            "locale": "zh",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "不适用于 35 岁以下人群、已知癌症患者、免疫抑制患者或肺癌筛查（使用 Lung-RADS）。",
+            "locale": "zh",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者风险",
+                "locale": "zh",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "低",
+                "locale": "zh",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四舍五入的平均直径",
+                "locale": "zh",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "zh",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "考虑3个月后行CT、PET-CT或组织样本",
+            "locale": "zh",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "不适用于 35 岁以下人群、已知癌症患者、免疫抑制患者或肺癌筛查（使用 Lung-RADS）。",
+            "locale": "zh",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者リスク",
+                "locale": "ja",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "低い",
+                "locale": "ja",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四捨五入した平均径",
+                "locale": "ja",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "ja",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "定期フォローアップなし",
+            "locale": "ja",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "35歳未満、既知のがん患者、免疫抑制患者、または肺がん検診には適用しません（Lung-RADS を使用）。",
+            "locale": "ja",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者リスク",
+                "locale": "ja",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "高い",
+                "locale": "ja",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四捨五入した平均径",
+                "locale": "ja",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "ja",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "6～12か月後にCT、その後18～24か月後にCT",
+            "locale": "ja",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "35歳未満、既知のがん患者、免疫抑制患者、または肺がん検診には適用しません（Lung-RADS を使用）。",
+            "locale": "ja",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者リスク",
+                "locale": "ja",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "低い",
+                "locale": "ja",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四捨五入した平均径",
+                "locale": "ja",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "ja",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "3～6か月後にCT；その後、18～24か月後のCTを考慮",
+            "locale": "ja",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "35歳未満、既知のがん患者、免疫抑制患者、または肺がん検診には適用しません（Lung-RADS を使用）。",
+            "locale": "ja",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "患者リスク",
+                "locale": "ja",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "低い",
+                "locale": "ja",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "四捨五入した平均径",
+                "locale": "ja",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "ja",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "3か月後のCT、PET-CT、または組織サンプルを考慮",
+            "locale": "ja",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "35歳未満、既知のがん患者、免疫抑制患者、または肺がん検診には適用しません（Lung-RADS を使用）。",
+            "locale": "ja",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Único de 4 mm, baixo risco: sem seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "रोगी का जोखिम",
+                "locale": "hi",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "कम",
+                "locale": "hi",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "गोल किया हुआ औसत व्यास",
+                "locale": "hi",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "4 mm",
+                "locale": "hi",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "नियमित अनुवर्ती नहीं",
+            "locale": "hi",
+            "template": "documented-authored-2568e87fe4208bcfd82f"
+          },
+          "note": {
+            "text": "35 वर्ष से कम आयु के व्यक्तियों, ज्ञात कैंसर वाले रोगियों, प्रतिरक्षादमनित रोगियों या फेफड़ों के कैंसर की स्क्रीनिंग पर लागू नहीं होता (Lung-RADS का उपयोग करें)।",
+            "locale": "hi",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: 5,6 mm arredonda para 6 mm, único, alto risco: TC em 6–12 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "रोगी का जोखिम",
+                "locale": "hi",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "उच्च",
+                "locale": "hi",
+                "template": "documented-authored-0d7f7575afcf3f06378d"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "गोल किया हुआ औसत व्यास",
+                "locale": "hi",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "6 mm",
+                "locale": "hi",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "6 से 12 महीनों में CT और फिर 18 से 24 महीनों में CT",
+            "locale": "hi",
+            "template": "documented-authored-aa8e1314d6ce2d041275"
+          },
+          "note": {
+            "text": "35 वर्ष से कम आयु के व्यक्तियों, ज्ञात कैंसर वाले रोगियों, प्रतिरक्षादमनित रोगियों या फेफड़ों के कैंसर की स्क्रीनिंग पर लागू नहीं होता (Lung-RADS का उपयोग करें)।",
+            "locale": "hi",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Múltiplos, maior de 7 mm, baixo risco: TC em 3–6 meses",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "रोगी का जोखिम",
+                "locale": "hi",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "कम",
+                "locale": "hi",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "गोल किया हुआ औसत व्यास",
+                "locale": "hi",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "7 mm",
+                "locale": "hi",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "3 से 6 महीनों में CT; फिर 18 से 24 महीनों में CT पर विचार करें",
+            "locale": "hi",
+            "template": "documented-authored-6be19edc2fdc1fb37172"
+          },
+          "note": {
+            "text": "35 वर्ष से कम आयु के व्यक्तियों, ज्ञात कैंसर वाले रोगियों, प्रतिरक्षादमनित रोगियों या फेफड़ों के कैंसर की स्क्रीनिंग पर लागू नहीं होता (Lung-RADS का उपयोग करें)।",
+            "locale": "hi",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Único de 10 mm, baixo risco: TC em 3 meses, PET-TC ou biópsia",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "रोगी का जोखिम",
+                "locale": "hi",
+                "template": "documented-authored-ce916081e4cf1220014a"
+              },
+              "value": {
+                "text": "कम",
+                "locale": "hi",
+                "template": "documented-authored-a64e6a127cc7f4535676"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "गोल किया हुआ औसत व्यास",
+                "locale": "hi",
+                "template": "documented-authored-0a908aab073e5b785e76"
+              },
+              "value": {
+                "text": "10 mm",
+                "locale": "hi",
+                "template": "documented-authored-2954004340b2efc54e43",
+                "sourceNumbers": [
+                  10
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "3 महीनों में CT, PET-CT या ऊतक का नमूना लेने पर विचार करें",
+            "locale": "hi",
+            "template": "documented-authored-e2075518dfc630c9efb5"
+          },
+          "note": {
+            "text": "35 वर्ष से कम आयु के व्यक्तियों, ज्ञात कैंसर वाले रोगियों, प्रतिरक्षादमनित रोगियों या फेफड़ों के कैंसर की स्क्रीनिंग पर लागू नहीं होता (Lung-RADS का उपयोग करें)।",
+            "locale": "hi",
+            "template": "documented-authored-28d37b315ac45b45de97"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

@@ -75,3 +75,55 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+No routine follow-up
+
+| Result details | |
+| --- | --- |
+| Patient risk | Low |
+| Rounded mean diameter | 4 mm |
+
+Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).
+
+
+### 2
+
+CT in 6 to 12 months and then in 18 to 24 months
+
+| Result details | |
+| --- | --- |
+| Patient risk | High |
+| Rounded mean diameter | 6 mm |
+
+Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).
+
+
+### 3
+
+CT in 3 to 6 months; then, consider CT in 18 to 24 months
+
+| Result details | |
+| --- | --- |
+| Patient risk | Low |
+| Rounded mean diameter | 7 mm |
+
+Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).
+
+
+### 4
+
+Consider CT in 3 months, PET-CT or tissue sample
+
+| Result details | |
+| --- | --- |
+| Patient risk | Low |
+| Rounded mean diameter | 10 mm |
+
+Does not apply to individuals younger than 35 years, patients with known cancer, immunosuppressed patients, or lung cancer screening (use Lung-RADS).
+
